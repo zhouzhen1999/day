@@ -23,7 +23,7 @@ gulp.task("devServer", function() {
                 middleware: function(req, res, next) {
                     let pathname = url.parse(req.url).pathname;
                     if (pathname == "/api/list") {
-                        res.end(JSON.stringify({ "code": 0, data: list }))
+                        res.end(JSON.stringify({ "code": 0, data: datas }))
                     } else if (pathname == "/favicon.ico") {
                         return
                     } else {
