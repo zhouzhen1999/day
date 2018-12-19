@@ -1,0 +1,22 @@
+{
+  "name": "day",
+  "version": "1.0.0",
+  "description": "day",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouzhen1999/day.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouzhen1999/day/issues"
+  },
+  "homepage": "https://github.com/zhouzhen1999/day#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
